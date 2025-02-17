@@ -1,0 +1,18 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore dataset files (if large)
+*.csv
+*.jsonl
+
+# Ignore VS Code settings (optional)
+.vscode/
