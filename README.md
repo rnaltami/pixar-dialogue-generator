@@ -14,6 +14,12 @@ This project fine-tunes an OpenAI **GPT-3.5-Turbo** model to generate **Pixar-st
 2. **Fine-Tuning**: The dataset was used to fine-tune an OpenAI GPT-3.5-Turbo model.
 3. **Testing**: The model generates Pixar-style dialogue when given prompts.
 
+## 🛠️ Environment Setup
+
+This project requires an `.env` file for storing secrets.  
+**Create a `.env` file in the root folder** and add the following:
+OPENAI_API_KEY=your-api-key-here
+
 ## 🚀 Running the Model
 Once the model is fine-tuned, you can generate Pixar-style dialogue using:
 ```python
